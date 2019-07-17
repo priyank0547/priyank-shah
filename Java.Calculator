@@ -1,2 +1,58 @@
-# priyank-shah
-i am explorer
+//standalone application of java calculator
+
+import java.awt.*;//import the methods from abstract windows toolkit
+import java.applet.*;
+import java.awt.event.*//ActionListener(buttons in this case)
+
+/*
+<applet code="MyCalculator.class"width="450"height="350">
+</applet>
+*/
+
+public class MyCalculator extends Applet implements ActionListener
+{
+  setLayout(null);//to break the flow of buttons and to provide custom positions on the screen
+  TextField a;
+  Button b,c,d,e,f,g, h,i,j,k,l, m,n,o,p,q,r,s,t,u,v,w;
+  a=new TextField();
+  b=new Button("Backspace");
+  c=new Button("clear");
+  d=new Button("1");
+  e=new Button("2");
+  f=new Button("3");
+  g=new Button("4");
+  h=new Button("5");
+  i=new Button("6");
+  j=new Button("7");
+  k=new Button("8");
+  l=new Button("9");
+  m=new Button("0");
+  n=new Button(".");
+  o=new Button("+");
+  p=new Button("-");
+  q=new Button("/");
+  r=new Button("*");
+  s=new Button("%");
+  t=new Button("1/x");
+  u=new Button("+/-");
+  v=new Button("SQRT√");
+  w=new Button("=");
+  add(a);
+  add(b);
+  add(c);
+  add(d);
+  add(e);
+  add(g);
+  
+  add(h);
+  add(i);
+  add(j);
+  add(k);
+  add(l);
+  add(m);
+  add(n);
+  add(o);
+  add(p);
+  add(q);
+  add(r);
+  add(s);
